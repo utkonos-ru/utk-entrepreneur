@@ -72,10 +72,10 @@ const validtionSchema = yup.object().shape({
 ```
 import {isINN, isINNIndividual, isINNLegalEntity} from '@utkonos/entrepreneur'
 
-console.log(isINN('525696684324'), isINN('7097670129')) // true, true
+console.log(isINN('7713527850'), isINN('447320913440')) // true, true
 
-console.log(isINNIndividual('525696684324'), isINNIndividual('7097670129')) // true, false
+console.log(isINNIndividual('447320913440'), isINNIndividual('7713527850')) // true, false
 
-console.log(isINNLegalEntity('525696684324'), isINNLegalEntity('7097670129')) // false, true
+console.log(isINNLegalEntity('447320913440'), isINNLegalEntity('7713527850')) // false, true
 ```
 
